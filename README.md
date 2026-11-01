@@ -32,19 +32,19 @@ Status: implementations done, ready for review
 
 | Язык | Версия инструмента | Команда сборки/запуска |
 |------|--------------------|------------------------|
-| C | `<gcc --version>` | `gcc -Wall -Wextra -pedantic main.c -o main` и `./main` (на macOS `gcc` — это Apple Clang) |
-| C++ | `<g++ --version>` | `g++ -Wall -Wextra -pedantic main.cpp -o main` и `./main` |
-| Python | `<python3 --version>` | `python3 main.py` |
-| JavaScript | `<node --version>` | `node main.js` |
-| TypeScript | `<tsc --version>` | `tsc` и `node dist/main.js` (настройки в `tsconfig.json`) |
-| Java | `<javac -version>` | `javac -encoding UTF-8 Main.java` и `java Main` |
-| C# | `<dotnet --version>` | `dotnet run` |
-| F# | `<dotnet --version>` | `dotnet run` |
-| Go | `<go version>` | `go run main.go` |
-| Rust | `<rustc --version>` | `rustc main.rs -o main` и `./main` |
-| Bash | `<bash --version>` | `bash main.sh` |
-| Prolog | `<swipl --version>` | `swipl -q -s main.pl -g main -t halt` |
-| Assembler | `<as --version>` | `clang -c assembler.s -o assembler.o`, `clang assembler.o -o assembler`, `./assembler` |
+| C | `21.0.0` | `gcc -Wall -Wextra -pedantic main.c -o main` и `./main` (на macOS `gcc` — это Apple Clang) |
+| C++ | `21.0.0` | `g++ -Wall -Wextra -pedantic main.cpp -o main` и `./main` |
+| Python | `3.14.6` | `python3 main.py` |
+| JavaScript | `26.13.0` | `node main.js` |
+| TypeScript | `7.0.2` | `tsc` и `node dist/main.js` (настройки в `tsconfig.json`) |
+| Java | `javac 27` | `javac -encoding UTF-8 Main.java` и `java Main` |
+| C# | `10.0.403` | `dotnet run` |
+| F# | `10.0.403` | `dotnet run` |
+| Go | `1.27.3` | `go run main.go` |
+| Rust | `1.99.1` | `rustc main.rs -o main` и `./main` |
+| Bash | `3.2.57` | `bash main.sh` |
+| Prolog | `10.0.2` | `swipl -q -s main.pl -g main -t halt` |
+| Assembler | `21.0.0` | `clang -c assembler.s -o assembler.o`, `clang assembler.o -o assembler`, `./assembler` |
 
 ## Пример ожидаемого вывода
 
