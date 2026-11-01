@@ -1,0 +1,18 @@
+# Системный мусор macOS
+.DS_Store
+
+# Скомпилированные бинарники C / C++ / Rust / Go / Assembler
+c/main
+cpp/main
+rust/main
+go/main
+asm/assembler
+asm/*.o
+
+# Java / TypeScript / .NET (байт-код и артефакты сборки)
+*.class
+typescript/dist/
+node_modules/
+bin/
+obj/
+__pycache__/
