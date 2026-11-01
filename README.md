@@ -89,3 +89,8 @@ VPD_Lab01/
 ├── java/  csharp/  fsharp/  go/  rust/
 └── bash/  prolog/  asm/
 ```
+## Единая команда для запуска и последовательного вывода всех скриптов
+
+```bash
+clear; r(){ printf '\n===== %s =====\n' "$1"; }; r C; (cd c && gcc -Wall -Wextra -pedantic main.c -o main && ./main); r C++; (cd cpp && g++ -Wall -Wextra -pedantic main.cpp -o main && ./main); r Python; python3 python/main.py; r JavaScript; node javascript/main.js; r TypeScript; (cd typescript && tsc && node dist/main.js); r Java; (cd java && javac -encoding UTF-8 Main.java && java Main); r "C#"; (cd csharp && dotnet run); r "F#"; (cd fsharp && dotnet run); r Go; (cd go && go run main.go); r Rust; (cd rust && rustc main.rs -o main && ./main); r Bash; bash bash/main.sh; r Prolog; (cd prolog && swipl -q -s main.pl -g main -t halt); r Assembler; (cd asm && clang -c assembler.s -o assembler.o && clang assembler.o -o assembler && ./assembler)
+```
