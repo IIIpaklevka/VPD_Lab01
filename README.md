@@ -2,4 +2,4 @@
 
 Студент: Калмыков Ярослав Владимирович, группа М3О-110БВк-26, номер 8
 
-Status: project initialized
+Status: implementations done, finishing documentation
