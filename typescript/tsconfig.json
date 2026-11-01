@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["ES2020", "DOM"]
+  },
+  "files": ["main.ts"]
+}
